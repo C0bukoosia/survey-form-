@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Survey Form project</title
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <h1 id="title">Financial Service Survey Form</h1>
+
+    <p id="description">Thank you for taking your time to fill this form</p>
+
+    <form id="survey-form" action="#" method="post">
+    <fieldset>
+      <legend>Personal info</legend>
+      <label id="name-label" ><input id="name" type="text" placeholder="Jane Doe" required>Enter Full name: </label>
+      <label id="email-label"><input id="email" type="email" placeholder="example@exp.com" required> Enter Email:</label>
+      <label id="number-label"><input id="number" type="number" min="18" max="150" placeholder="22" required>Age:</label>
+      <label for=" gender"> Gender</label>
+      <select id="dropdown">
+        <option value="select-one">(select one)</option>
+         <option value="male">Male</option>
+         <option value="female">Female</option>
+      </select>
+      <label for="indiviual-account"> Individual account<input id= "individual" name ="account" type="radio" value="individual"></label>
+      <label for="business-account"> Business account <input  id="business-account"  name="account" type="radio" value="business">Both</label>
+  
+</fieldset>
+<fieldset>
+  <legend>How satisfied are you with the financial services offered?</legend>
+  <label for="rate-customer-service">Very satisfied<input id="rate-customer-service" name="rate-customer-service" type="checkbox" value="rate"></label>
+  <label for="rate-customer-service"> satisfied<input id="rate-customer-service" name="rate-customer-service" type="checkbox" value="rate"></label>
+  <label for="rate-customer-service">Neutral <input id="rate-customer-service" name="rate-customer-service" type="checkbox" value="rate"></label>
+  <label for="rate-customer-service">Dissatisfied<input id="rate-customer-service" name="rate-customer-service" type="checkbox" value="rate"></label>
+  <label for="rate-customer-service">Very dissatisfied<input id="rate-customer-service" name="rate-customer-service" type="checkbox" value="rate"></label>
+
+  <label for="feedback">Do you have any comments or suggestions:<textarea id="feedback" rows="3"cols="30"  placeholder="enter your comment here" required></textarea></label>
+</fieldset> 
+<input id="submit" type="submit">
+</form
+  </body>
+</html>
+
+
